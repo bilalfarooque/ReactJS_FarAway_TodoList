@@ -13,10 +13,8 @@ const Container = styled.div`
   flex-direction: column;
 `
 function App() {
-  const [list, setList] = useState([
-    
-  ])
-  const [percentage ,setPercentage] = useState(0)
+  const [list, setList] = useState([]);
+  const [percentage ,setPercentage] = useState(0);
   const [count,setCount] = useState(0)
   return (
     <Container>

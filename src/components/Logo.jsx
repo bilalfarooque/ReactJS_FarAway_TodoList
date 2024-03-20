@@ -12,12 +12,9 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: space-evenly;
 `;
-const Images = styled.img`
-  height: 90px;
-  width: 90px;
-`;
+
 const Title = styled.p`
-  font-size: 58px;
+  font-size: 45px;
   color: #683500;
   font-weight: 900;
   margin: 0;

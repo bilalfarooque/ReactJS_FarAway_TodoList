@@ -4,10 +4,10 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     display: flex;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 0px 30px;
+    padding: 0px 10px;
 `
 const Item = styled.div`
     display: flex;
@@ -26,13 +26,14 @@ const Quantity = styled.p`
     margin: 0px;
     font-size: 18px;
     font-weight: 600;
-    color: #fff;
-`
+    color: #2e1808 !important;
+    `
 const ItemName = styled.div`
     font-size: 18px;
     font-weight: 600;
-    color: #fff;
+
     letter-spacing: 2px;
+    color: #2e1808 !important;
 `
 const Cross = styled.button`
     color: red;
